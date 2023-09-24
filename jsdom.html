@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<lang:html>
+    <head>
+        <title>JS DOM Demo</title>
+        <link rel="stylesheet" type="text/css" href="jsdom.css" />       
+        <script src="jsdom.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Welcome to the Javascript Document Object Model</h1>
+        <button onclick="accessElementsByTagName();">Access Elements by Tag name now!</button>                
+        <button onclick="Homework();">HomeWork</button>                
+                      
+        <main>          
+            <div>
+                <h4 id="header">How to access html elements in javascript</h4>
+                
+                <p id="demo">There are many ways to access html elements from javascript using DOM</p>                
+                <p id="demo">You can access html element by its tag name</p>                
+                <p id="demo">You can access html element by its id</p>                
+                <p id="demo">You can access html elements by their classname</p>  
+                <script>
+                const element = document.getElementsByTagName("p");
+                document.getElementById("demo").innerHTML = '' + element[0].innerHTML;
+                </script>
+                <h6>Following are some useful links where you can learn more!</h6>
+                <nav>
+                    <a class="classA" id="link1" href="http://www.w3schools.com">Link to W3Schools website</a>                
+                    <a class="classA" href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">Link to Mozilla website</a>                
+                    <a class="classA" href="https://javascript.info/dom-navigation">Link to Javascript.Info website</a>                                            
+                </nav>                                             
+                <button onclick="accessElementById();">Access Element by Id now!</button>
+                <button onclick="accessElementsByClassName();">Access Elements by ClassName now!</button>                                
+            </div>      
+            <div id="parent">
+                <h4>How to access html styles in javascript</h4>
+                <p>Next let us look at how to modify the styles from javascript</p>
+                <p>You can change individual styles like color or width</p>
+                <p>You can also add, replace or remove a class assigned to an element</p>
+                <div class="box" id="box">Box</div>
+                <button onclick="changeStylesForOneElement();">Change style for a single element</button>
+                <button onclick="changeStylesForManyElements();">Change styles for many elements</button>
+                <button onclick="createABox();">Create a box</button>
+                <button onclick="removeABox();">Remove a box</button>
+            </div>     
+            
+<!--******************************************************************************-->
+
+        
+            
+            <a href="http://www.tri-c.edu">LinkA</a>
+<!--****************************************************************************-->
+        </main>
+        <footer>
+            <p id="copyright">Copyright &amp; Manjula Chandirasekaran</p>
+            <a href="http://www.google.com">Go to google</a>
+        </footer>
+    </body>
+</html>

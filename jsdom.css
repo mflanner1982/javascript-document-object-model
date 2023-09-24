@@ -1,0 +1,74 @@
+main{      
+    font-size: 18px; 
+    width: 100%; 
+}
+h1{
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    text-shadow: 1px;
+}
+h4{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+h6{
+    color: darkblue;
+    font-size: 18px;
+}
+div{    
+    width: 45%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+nav a{
+    display: block;
+}   
+.classA{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;        
+}
+.classB
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2px;
+    background-color: lightcyan;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;    
+}
+
+#para1{
+    background-color: light-blue;
+}
+footer{
+font-size: 0.75em;
+clear: both;
+text-align: center;
+background-color: yellow;
+}
+
+button{
+    padding: 10px;
+    background-color: darkblue;
+    color: white;    
+    font-size: 14px;
+    background-color: lightgreen;
+}
+.green
+{
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+getElementbyID{       /* I don't know why this is not working. I don't know how to connect p in CSS to the HTML */ 
+    background-color: red;
+}
